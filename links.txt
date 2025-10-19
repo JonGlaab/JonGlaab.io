@@ -4,5 +4,3 @@ pets repo: https://github.com/JonGlaab/Pets-App
 
 git: https://github.com/JonGlaab
 linkedin: https://www.linkedin.com/in/jonathan-glaab-a4063a388/
-
-resume(hosting?):

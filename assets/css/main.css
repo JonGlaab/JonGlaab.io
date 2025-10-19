@@ -2811,14 +2811,23 @@ input, select, textarea {
 		margin: 0 0 3em -2em;
 		padding: 0;
 		list-style: none;
+
 	}
 
-		.features li {
-			width: calc(33.33333% - 2em);
-			margin-left: 2em;
-			margin-top: 3em;
-			padding: 0;
-		}
+	.features li .image img {
+		width: 100%;
+		min-width: 300px;
+		max-width: 400px;
+		height: auto;
+		display: block;
+	}
+
+	.features li {
+				width: calc(33.33333% - 2em);
+				margin-left: 2em;
+				margin-top: 3em;
+				padding: 0;
+			}
 
 			.features li:nth-child(1), .features li:nth-child(2), .features li:nth-child(3) {
 				margin-top: 0;
@@ -2879,7 +2888,6 @@ input, select, textarea {
 			-ms-flex: 1;
 			flex: 1;
 			padding: 1.5em;
-			color: #ffffff;
 			text-align: center;
 		}
 
