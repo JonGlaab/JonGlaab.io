@@ -3578,6 +3578,8 @@ input, select, textarea {
 
 		#main table tfoot {
 			border-top-color: #dddddd;
+			opacity: 0.1;
+
 		}
 
 		#main table.alt tbody tr td {
